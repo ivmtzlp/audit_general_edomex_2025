@@ -22,36 +22,6 @@ library(googleway)
 
 options(survey.lonely.psu ="remove")
 
-
-# 
-# preguntas_atiz <- read_rds("data/clase_pregunta.rda")
-# catalogo_seccion_cluster_atiz <- read_rds("data/catalogo_seccion_cluster.rda")
-# enc_shp_atiz <- readr::read_rds("data/enc_shp.rda") %>%
-#   mutate(interior_cluster = dplyr::if_else(condition = (as.numeric(distancia) != 0),
-#                                            true = "Fuera",
-#                                            false = "Dentro"))
-# 
-# 
-# # neza
-# catalogo_seccion_cluster_neza <- read_rds("data/catalogo_seccion_cluster_neza.rda")
-# enc_shp_neza <- readr::read_rds("data/enc_shp_neza.rda") %>%
-#   mutate(interior_cluster = dplyr::if_else(condition = (as.numeric(distancia) != 0),
-#                                            true = "Fuera",
-#                                            false = "Dentro"))
-# mapa_base_neza <- read_rds("data/mapa_base_neza.rda")
-# preguntas_neza <- read_rds("data/clase_pregunta_neza.rda")
-# 
-# 
-# # texco
-# catalogo_seccion_cluster_texco <- read_rds("data/catalogo_seccion_cluster_texco.rda")
-# enc_shp_texco <- readr::read_rds("data/enc_shp_texco.rda") %>%
-#   mutate(interior_cluster = dplyr::if_else(condition = (as.numeric(distancia) != 0),
-#                                            true = "Fuera",
-#                                            false = "Dentro"))
-# mapa_base_texco <- read_rds("data/mapa_base_texco.rda")
-# preguntas_texco <- read_rds("data/clase_pregunta_texco.rda")
-
-
 datos_municipios <- list(
   "Atizapan De Zaragoza" = list(
     catalogo_seccion_cluster = read_rds("data/catalogo_seccion_cluster_atiz.rda"),
