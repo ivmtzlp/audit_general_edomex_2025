@@ -1,0 +1,12 @@
+name: audit_general_edomex_2025
+title: auditoria
+username: iml-92
+account: iml-92
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13764824
+bundleId: 9754137
+url: https://iml-92.shinyapps.io/audit_general_edomex_2025/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
